@@ -2,9 +2,10 @@
 
 This project showcases a real-time data streaming pipeline that simulates stock market data flow from a Kafka producer to a Snowflake data warehouse, leveraging AWS S3 and Snowpipe for storage and automated ingestion.
 
-## Project Overview
+## 🎯 Project Overview
 
-Goal: Build an end-to-end real-time data pipeline using open-source and cloud technologies.
+**Goal:**  
+Build an end-to-end real-time data pipeline using open-source and cloud technologies.
 
 ## 🔁 Workflow:
 
@@ -15,7 +16,7 @@ Goal: Build an end-to-end real-time data pipeline using open-source and cloud te
 5. **Snowflake Data Warehouse**: Data is now available in Snowflake for querying and analytics.
 
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Apache Kafka (Producer/Consumer)
 - Python (Kafka interaction, file handling)
@@ -24,7 +25,7 @@ Goal: Build an end-to-end real-time data pipeline using open-source and cloud te
 - Snowpipe (Continuous data ingestion)
 - IAM (Secure access between Snowflake and S3)
 
-## Project   Structure
+## 📁 Project Structure
 
 ```text
 Kafka real time project/
@@ -40,7 +41,7 @@ Kafka real time project/
 
 
 
-## Snowflake Objects Created
+## ❄️ Snowflake Objects Created
 
 - **Database**: `kafka_project`  
 - **Schema**: `kafka_s3_schema`  
@@ -51,7 +52,7 @@ Kafka real time project/
 - **Snowpipe**: `stock_pipe` with auto-ingest enabled  
 
 
-## Highlights
+## 🌟 Highlights
 
 - Real-time stream processing with **Kafka**
 - Automation with **Snowpipe** for seamless data ingestion
@@ -59,4 +60,7 @@ Kafka real time project/
 - Cloud-native architecture using **AWS S3** and **Snowflake**
 
 
+## 📷 Architecture Diagram
+
+![Kafka Real-Time Pipeline Architecture](architecture_diagram.png)
 
