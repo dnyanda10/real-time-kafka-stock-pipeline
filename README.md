@@ -42,13 +42,13 @@ Kafka real time project/
 
 ## Snowflake Objects Created
 
--Database: kafka_project
--Schema: kafka_s3_schema
--Storage Integration: my_s3_integration (with AWS IAM Role)
--External Stage: kafka_s3_stage
--Table: stock_data
--File Format: json_format
--Snowpipe: stock_pipe with auto-ingest enabled
+-**Database**: kafka_project
+-**Schema**: kafka_s3_schema
+-**Storage Integration**: my_s3_integration (with AWS IAM Role)
+-**External Stage**: kafka_s3_stage
+-**Table**: stock_data
+-**File Format**: json_format
+-**Snowpipe**: stock_pipe with auto-ingest enabled
 
 ## Highlights
 
