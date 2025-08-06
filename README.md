@@ -9,13 +9,9 @@ Goal: Build an end-to-end real-time data pipeline using open-source and cloud te
 ## 🔁 Workflow:
 
 1- Kafka Producer: Reads data from a CSV file and sends records to Kafka topic demo_testing.
-
 2- Kafka Consumer: Reads the topic data and writes it to .json files.
-
 3- AWS S3: Stores the JSON files.
-
 4- Snowflake + Snowpipe: Automatically ingests new data from S3 into a structured table.
-
 5- Data is now available in Snowflake for querying and analytics.
 
 
@@ -30,6 +26,7 @@ Goal: Build an end-to-end real-time data pipeline using open-source and cloud te
 
 ## Project   Structure
 
+```text
 Kafka real time project/
 ├── producer/                # Kafka producer script (producer.py)
 ├── consumer/                # Kafka consumer script (consumer.py)
@@ -39,6 +36,8 @@ Kafka real time project/
 ├── architecture_diagram.png# Project architecture image
 ├── .gitignore
 └── README.md
+```
+
 
 
 ## Snowflake Objects Created
